@@ -238,11 +238,11 @@ public class Main {
     }
 
     private static void listarTodosPets() throws IOException {
-        System.out.println("\n--- TODOS OS PETS ---");
         List<String[]> pets = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader("src/pets/respostas.txt"))) {
             String linha;
             while ((linha = br.readLine()) != null) {
+                System.out.println("\n--- TODOS OS PETS ---");
                 String[] dadosPet = linha.split("\\|");
                 pets.add(dadosPet);
             }
