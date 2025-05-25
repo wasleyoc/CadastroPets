@@ -1,5 +1,6 @@
 package src.main;
 
+import src.AlterarPets;
 import src.CadastroPets;
 import src.ManipuladorArquivos;
 
@@ -23,6 +24,8 @@ public class Main {
                     CadastroPets.Cadastrar();
                     break;
                 case 2:
+                    System.out.println("Alterar Pets");
+                    AlterarPets.Alterar();
                     break;
                 case 3:
                     break;
