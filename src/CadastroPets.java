@@ -28,7 +28,7 @@ public class CadastroPets {
                         System.out.println("Digite 1 para Cachorro ou 2 para Gato");
                         resposta = scanner.nextLine();
                         if (resposta.equals("1")) {
-                            tipo = PetsType.CACHORRO;
+                             tipo = PetsType.CACHORRO;
                         } else if (resposta.equals("2")) {
                             tipo = PetsType.GATO;
                         } else {

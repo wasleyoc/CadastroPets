@@ -1,8 +1,0 @@
-Pretinha |  Cachorro  |  Macho  |  Rua Santos Dumont 444 Lagoinha  |  5  |  12  |  Vira Lata
-Help | Cachorro | 1 | Rua B | 10 | 9 | Vira Lata | 
-Dog | Cachorro | 1 | MACHO | 10 | 10 | vira lata | 
-Teste | Cachorro | 1 | MACHO | 1 | 1 | 1 | 
-1 | 1 | MACHO | 1 | 1 | 1 | 1 | 
-Help | Cachorro | FEMEA | Rua C | 10 | 6 | Vira Lata |
-
-1 | 1 | MACHO | 1 | 1 | 1 | 1 | 

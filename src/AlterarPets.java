@@ -59,7 +59,6 @@ public class AlterarPets {
                 writer.newLine();
             }
         }
-
         System.out.println("Alteração realizada com sucesso!");
     }
 }
