@@ -2,7 +2,9 @@ package src.main;
 
 import src.AlterarPets;
 import src.CadastroPets;
+import src.ListarPets;
 import src.ManipuladorArquivos;
+import src.ListarPorCriterio;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -28,10 +30,16 @@ public class Main {
                     AlterarPets.Alterar();
                     break;
                 case 3:
+                    System.out.println("Deletar Pets");
+                    // DeletarPets
                     break;
                 case 4:
+                    System.out.println("Listar Pets");
+                    ListarPets.Listar();
                     break;
                 case 5:
+                    System.out.println("Listar Pets por critério");
+                    ListarPorCriterio.listPetsByCriterion();
                     break;
                 case 6:
                     entrada.close();
@@ -39,7 +47,7 @@ public class Main {
                 default:
                     System.out.println("Opção Inválida!");
             }
-        } catch (InputMismatchException e){
+        } catch (InputMismatchException e) {
             System.out.println("Por Favor digite os números");
 
         }
