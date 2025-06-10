@@ -40,17 +40,23 @@ public class AlterarPets {
             return;
         }
 
-        // Edita o campos da linha escolhida
+        // Array com os nomes dos campos
+        String[] perguntas = { "Nome", "Tipo", "Sexo", "Endereço", "Idade", "Peso", "Raça" };
+
+        // Edita os campos da linha escolhida
         String[] campos = lines.get(linhaEscolhida - 1).split("\\|");
         for (int i = 0; i < campos.length; i++) {
-            System.out.println("Campo: " + (i + 1) + ": " + campos[i].trim());
+            String campoNome = (i < perguntas.length) ? perguntas[i] : "Campo " + (i + 1);
+            System.out.println(campoNome + " atual: " + campos[i].trim());
+            System.out.print("Novo valor para " + campoNome + " (pressione Enter para manter): ");
             String newValue = scanner.nextLine();
             if (!newValue.isEmpty()) {
                 campos[i] = newValue;
             }
         }
 
-        // Atualiza a linha escolhida e coloca o delimitado para separar novamente as informações
+        // Atualiza a linha escolhida e coloca o delimitado para separar novamente as
+        // informações
         lines.set(linhaEscolhida - 1, String.join(" | ", campos));
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(petsPath))) {

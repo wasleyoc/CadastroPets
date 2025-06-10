@@ -7,7 +7,7 @@ import java.io.IOException;
 public class ListarPets {
   public static void Listar() {
     String[] perguntas = { "Nome", "Tipo", "Sexo", "Endereço", "Idade", "Peso", "Raça" };
-    System.out.println("Listando todos os pets...");
+    // System.out.println("Listando todos os pets...");
     String pets = "C:\\Users\\wasle\\OneDrive\\Documentos\\GitHub\\CadastroPets\\src\\pets\\pets.txt";
 
     try (BufferedReader lerArq = new BufferedReader(new FileReader(pets))) {

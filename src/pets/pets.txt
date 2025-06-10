@@ -1,4 +1,7 @@
 Help | CACHORRO | MACHO | Rua Santos Dumont | 4 | 5 | Vira Lata |
 Pretinha | GATO | FEMEA | Rua A | 3 | 4 | Pe dura |
-Rex | CACHORRO | MACHO | Rua Getulio Vargas | 6 | 6 | Vira Lata |
 Help | CACHORRO | MACHO | Rua Santos Dumont 444, Lagoinha, Candido Sales | 10 | 8 | Vira Lata |
+Help | CACHORRO | MACHO | Rua B, Centro, Cidade n 000 | 5 | 6 | Vira Lata |
+Help | CACHORRO | MACHO | Rua A, Centro, Cidade, n 000 | 5 | 4 | Vira Lata |
+Tininho   |   CACHORRO   |   MACHO   |   Rua A   |   5   |   5   |   Vira Lata  
+Snop  |  2  |  2  |  Rua B  |  5  |  6  |  Vira Lata  |
