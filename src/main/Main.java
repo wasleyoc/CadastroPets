@@ -1,10 +1,6 @@
 package src.main;
 
-import src.AlterarPets;
-import src.CadastroPets;
-import src.ListarPets;
-import src.ManipuladorArquivos;
-import src.ListarPorCriterio;
+import src.*;
 
 import java.io.IOException;
 import java.util.InputMismatchException;
@@ -31,7 +27,7 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Deletar Pets");
-                    // DeletarPets
+                    DeletarPets.deletarPorNome();
                     break;
                 case 4:
                     System.out.println("Listar Pets");

@@ -1,6 +1,6 @@
 1 - Cadastrar um novo pet
 2 - Alterar os dados do pet cadastrado
 3 - Deletar um pet cadastrado
-4 - Listar todos os src.pets cadastrados
-5 - Listar src.pets por algum critério (idade, nome, raça)
+4 - Listar todos os pets cadastrados
+5 - Listar pets por algum criterio (idade, nome, raca)
 6 - Sair

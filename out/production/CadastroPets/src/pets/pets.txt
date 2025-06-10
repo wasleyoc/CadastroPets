@@ -1,0 +1,2 @@
+Help | CACHORRO | MACHO | Rua Santos Dumont | 5 | 9 | Vira Lata |
+Pretinha | CACHORRO | FEMEA | Rua Santos Dumont | 4 | 6 | Vira Lata |
