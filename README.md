@@ -42,6 +42,8 @@ As constantes se encontram em ```bash src/app/Main.java``` no inicio do método 
 
 ## Utilização
 
+https://github.com/user-attachments/assets/4af201c8-ff04-4b90-93bb-6cadc0849ee7
+
 
 Ao excecutar o sistema, um menu inicial exibirá as seguintes opções:
 ```bash
